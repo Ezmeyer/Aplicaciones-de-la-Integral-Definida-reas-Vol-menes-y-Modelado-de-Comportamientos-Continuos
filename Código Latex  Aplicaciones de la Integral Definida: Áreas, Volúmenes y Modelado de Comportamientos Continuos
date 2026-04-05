@@ -1,0 +1,84 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{Aplicación de la Integral Definida en el Contexto Empresarial}
+\author{Estudiante}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Introducción}
+La integral definida permite calcular acumulaciones como ingresos, costos o producción a lo largo del tiempo.
+\end{frame}
+
+\begin{frame}{Integral de Riemann}
+La integral se define como el límite de sumatorias:
+\[
+\int_a^b f(x)dx = \lim_{n \to \infty} \sum f(x_i)\Delta x
+\]
+\end{frame}
+
+\begin{frame}{Teorema Fundamental del Cálculo}
+Si:
+\[
+F(x) = \int_a^x f(t)dt
+\]
+Entonces:
+\[
+F'(x) = f(x)
+\]
+\end{frame}
+
+\begin{frame}{Modelo Empresarial}
+Se utiliza la función:
+\[
+f(x) = 2x + 5
+\]
+Donde x representa el tiempo y f(x) los ingresos diarios.
+\end{frame}
+
+\begin{frame}{Cálculo del Área}
+\[
+\int_0^{10} (2x+5)dx = [x^2 + 5x]_0^{10} = 150
+\]
+
+Ingreso total: 150 mil dólares.
+\end{frame}
+
+\begin{frame}{Volumen de Revolución}
+\[
+V = \pi \int_0^{10} (2x+5)^2 dx
+\]
+Representa crecimiento acumulado del sistema.
+\end{frame}
+
+\begin{frame}{Código en Python}
+\begin{verbatim}
+from scipy.integrate import quad
+
+Función: 2*x + 5, se adjunta código Python.
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Interpretación}
+\begin{itemize}
+\item El área representa ingresos acumulados
+\item El volumen representa crecimiento o proyección
+\item Facilita la toma de decisiones
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusiones}
+\begin{itemize}
+\item Las integrales permiten modelar procesos reales
+\item Python automatiza cálculos
+\item Herramienta clave en análisis empresarial
+\end{itemize}
+\end{frame}
+
+\end{document}

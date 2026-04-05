@@ -1,1 +1,0 @@
-# Aplicaciones-de-la-Integral-Definida-reas-Vol-menes-y-Modelado-de-Comportamientos-Continuos
